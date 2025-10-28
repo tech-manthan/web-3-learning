@@ -1,0 +1,20 @@
+{
+  "name": "encryption",
+  "version": "1.0.0",
+  "description": "",
+  "main": "symmetric.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@noble/ed25519": "^3.0.0",
+    "@noble/secp256k1": "^3.0.0",
+    "@solana/web3.js": "^1.98.4",
+    "ethers": "^6.15.0",
+    "tweetnacl": "^1.0.3"
+  }
+}
